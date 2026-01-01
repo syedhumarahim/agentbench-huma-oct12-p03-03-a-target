@@ -1,0 +1,22 @@
+{
+  "allowed_merge_method": "squash",
+  "block_deletions": true,
+  "block_force_pushes": true,
+  "branch": "~DEFAULT_BRANCH",
+  "bypass_actors": [],
+  "enforcement": "active",
+  "managed_name_prefix": "agentbench-managed-",
+  "obsolete_managed_ruleset_name": "agentbench-managed-obsolete",
+  "pull_request": true,
+  "required_approving_review_count": 0,
+  "required_linear_history": true,
+  "required_review_thread_resolution": true,
+  "required_status_checks": [
+    "test",
+    "package"
+  ],
+  "ruleset_name": "agentbench-managed-protected-main",
+  "strict": true,
+  "unmanaged_settings": "preserve",
+  "version": 1
+}

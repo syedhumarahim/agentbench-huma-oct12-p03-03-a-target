@@ -1,0 +1,14 @@
+{
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "name": "governance-cli",
+  "private": true,
+  "scripts": {
+    "package": "npm pack --dry-run",
+    "policy": "node --experimental-strip-types src/cli.ts",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}

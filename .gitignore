@@ -1,0 +1,9 @@
+.venv/
+.eval-credentials/
+.runtime-secrets/
+__pycache__/
+*.pyc
+node_modules/
+artifacts/
+state/
+*.pid
