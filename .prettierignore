@@ -1,0 +1,6 @@
+node_modules/
+dist/
+artifacts/
+state/
+package-lock.json
+scripts/report_local_checks.py
