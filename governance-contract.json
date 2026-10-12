@@ -11,10 +11,7 @@
   "required_approving_review_count": 0,
   "required_linear_history": true,
   "required_review_thread_resolution": true,
-  "required_status_checks": [
-    "test",
-    "package"
-  ],
+  "required_status_checks": ["test", "package"],
   "ruleset_name": "agentbench-managed-protected-main",
   "strict": true,
   "unmanaged_settings": "preserve",
